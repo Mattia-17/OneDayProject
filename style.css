@@ -8,10 +8,54 @@
     align-items: center;
     /*background:linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), 
     url("img/sfondo\ sito\ oneday.jpg");*/
-    background:linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), 
-    url("img/evento1.jpg");
+    background:linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0,0.6)), 
+    url("img/shooting\ oneday.png");
     background-position: center;
     background-size: cover;
+}
+
+.hero_elenco {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px);
+    align-items: center;
+    /*background:linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), 
+    url("img/sfondo\ sito\ oneday.jpg");*/
+    background:linear-gradient(0deg, rgba(0,0,0, 0.55), rgba(0,0,0,0.55)), 
+    url("img/evento5.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__content_elenco {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 3% auto;
+}
+
+.hero__content_elenco > h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' ,sans-serif;
+    color: white
+}
+
+
+.hero__content_elenco > h2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    opacity: .9;
+    text-transform: none;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 40px;
 }
 
 
@@ -208,16 +252,20 @@
 }
 
 .prova {
-    width: 80%;
-    padding-left: 35px;
-    padding-right: 35px;
+    width: 85%;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-right: auto;
     margin-left: auto;
 }
-.prova > p {
-    color: #222221;
-}
 
+.titolo-elenco {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    font-family: 'Montserrat' ,sans-serif;
+    text-transform: uppercase;
+}
 
 .mainheadline {
     margin-bottom: 30px;
@@ -262,14 +310,17 @@ h3 {
 
 
 .hero_corso {
-    background-color: #878787;
-    color: #ffffff !important;
+    background-color: #ffffff;
+    color: #303030 !important;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    margin: 3% 2%; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    border-width: 5px;
+    border-color: #ec772b;
+    border-style: solid;
 }
 
 .hero_content_corso {
@@ -278,6 +329,7 @@ h3 {
     padding-right: 35px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 .hero_content_home > h2 {
@@ -291,7 +343,7 @@ h3 {
     text-transform: uppercase;
 }
 
-.hero_content_corso > h2 {
+.hero_content_corso > .conteiner > .row >.col > h2 {
     font-size: 36px;
     line-height: 44px;
     font-weight: 700;
@@ -314,7 +366,6 @@ h3 {
     position: relative;
     padding: 0;
     margin: 5px;
-    margin-top: 30px;
     max-width: 150px;
 }
 
@@ -430,10 +481,10 @@ h3 {
     width: 60%;
     margin: auto;
 }
-/*.hero_presentatore > .conteiner > .row > .col > .quote__text {
+.hero_presentatore > .conteiner > .row > .col > .quote__text {
     padding-right: 5%;
 }
-*/
+
 .hero_presentatore > .conteiner > .row {
     margin-top: 50px;
 }
@@ -445,13 +496,12 @@ h3 {
         margin: 0 auto;
 }
 
-/*RESPONSIVE PAG*/
+.prova > h2 {
+    font-size: 31.5px;
+    line-height: 40px;
+}
 
+/*RESPONSIVE PAG
+  LANDING PAGA
+*/
 
-
-
-
-
-
-
-/*LANDING PAGE*/

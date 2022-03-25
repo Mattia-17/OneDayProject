@@ -3,13 +3,16 @@
 
 <head>
     <title>corso shooting OneDay</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
             <div class="navbar-brand" href="#" style="margin: auto;"><img src="img/oneday.svg" style="width: 250px;">
@@ -17,38 +20,60 @@
         </div>
     </nav>
 
-    <div class="hero_landing">
-        <div class="hero__content">
-            <h1>Corso shooting e editing</h1>
-            <h2>Individua, scatta, edita. Come? I nostri esperti di oneday ti seguiranno in
-                ogni passo per renderti autonomo in shooting, video ed editing.
+    <div class="hero_home">
+        <div class="hero__content_home">
+            <h1>Eventi e Corsi</h1>
+            <h2>Organizziamo eventi e corsi verticali ed altamente formativi che vogliono portare le conoscenze
+                dei nostri professionisti del mondo digitale a privati e ad aziende, offrendo spazi stimolanti dove
+                apprendere e mettere in pratica.
             </h2>
-            <a href="" class="btn" target="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Partecipa al
-                corso</a>
+            <a href="#elenco" class="btn" target="">Scopri di più</a>
+        </div>
+        <div class="scroll-down"><i class="icon-angle-down"></i></div>
+    </div>
+
+    <div class="conteiner text-center" id="elenco"
+        style="background-color: #000000; color: #ffffff !important; padding-top: 10vh; padding-bottom: 5vh; margin-bottom: 5vh !important">
+        <div class="prova">
+            <h2>
+                Impara e mettiti in gioco: il C30 è l'ambiente <span style="color: #ff9900;">stimolante</span> e <span
+                    style="color: #ff9900;">smart</span> per aumentare le tue conoscenze con i
+                <span style="color: #ff9900;">migliori professionisti</span> dell'ecosistema OneDay.</span>
+            </h2>
+            <h3>Partecipa a un corso preparato per la nostra community o entra in contatto con noi per organizzare la
+                formazione per la tua azienda.</h3>
+        </div>
+    </div>
+
+
+    <div class="hero_1">
+        <div class="hero_1_content" style="text-align: center; margin-bottom: 5%;">
             <div class="row">
-                <div class="col colonna_1">
-                    <div class="circle_2">
-                        <div class="inner_2">
-                            <div class="inner__content_2">
-                                <div class="numero">20</div>
-                                <div class="scritta">posti rimanenti</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col" style="padding-left: 10%; padding-right: 5%;">
+                    <h2 style="text-transform: uppercase;">community</h2>
+                    <div class="orange_line"></div>
+                    <p style="opacity: 1;">Partecipa ad uno dei nostri corsi presso la sede del C30 per sviluppare le competenze più 
+                        richieste nel mondo digital.
+                        Otterrai esclusivi vantaggi entrando a far parte dell'inclusiva #Community di Oneday.
+                    </p>
+                    <a href="elencoCorsi.html" class="btn" target="" style="margin-top: 3%;">Scopri i corsi</a>
                 </div>
-                <div class="col colonna_2">
-                    <div class="circle_2">
-                        <div class="inner_2">
-                            <div class="inner__content_2">
-                                <div class="numero">7</div>
-                                <div class="scritta">giorni alla chiusura</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col" style="width: 2px !important; max-width: 2px; padding: 0px;">
+                    <div class="orange_bar"></div>
+                </div>
+                <div class="col" style="padding-left: 5%; padding-right: 10%; ">
+                    <h2 style="text-transform: uppercase;">azienda</h2>
+                    <div class="orange_line"></div>
+                    <p style="opacity: 1;">Scopri un nuovo modo di formare i tuoi dipendenti: organizziamo un corso
+                        privato tenuto dai professionisti esperti del settore che lavorano nel
+                        nostro ecosistema OneDay.
+                    </p>
+                    <a href="" class="btn" target="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin-top: 3%;">
+                        Richiedi colloquio
+                    </a>
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -56,24 +81,38 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Form pagamento/prenotazione</h5>
+                    <h4 class="modal-title" id="staticBackdropLabel">Ottieni maggiori informazioni</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-
+                    <h6>Completa i campi per entrare in contatto con noi per organizzare un colloquio.</h6>
                     <form>
                         <div class="mb-3">
-
+                            <div class="form-group was-validated">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" placeholder="Inserire email" name="email"
+                                    required>
+                                <div class="valid-feedback"></div>
+                                <div class="invalid-feedback">Perfavore compila questo campo per continuare</div>
+                            </div>
                         </div>
                     </form>
+                    <div class="mb-3">
+                        <div class="form-group was-validated">
+                            <label for="name">Ragione Sociale:</label>
+                            <input type="text" class="form-control" placeholder="Inserire ragione sociale"
+                                name="name" required>
+                            <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Perfavore compila questo campo per continuare</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
+                    <a href="landing.html" class="btn">Scarica</a>
                 </div>
             </div>
         </div>
     </div>
-
-
 
 </body>
 
